@@ -1,0 +1,28 @@
+1.Ce este un viewport?
+Viewport-ul reprezintă regiunea ferestrei în care OpenGL desenează, mapând coordonatele normalizate ale scenelor 3D pe ecranul 2D. Acesta este setat de funcția GL.Viewport.
+
+2.Ce reprezintă conceptul de frames per second (FPS) din punctul de vedere al OpenGL?
+FPS reprezintă numărul de cadre randate pe secundă de către OpenGL. Este un indicator al performanței aplicației grafice.
+
+3.Când este rulată metoda OnUpdateFrame()?
+Această metodă este rulată înainte de randarea fiecărui cadru și este utilizată pentru actualizarea logicii jocului sau a aplicației (de exemplu, actualizarea poziției obiectelor).
+
+4.Ce este modul imediat de randare?
+Modul imediat de randare se referă la randarea folosind funcții precum GL.Begin() și GL.End(), unde vertecșii sunt trimiși direct la pipeline-ul grafic. Este un mod depășit și ineficient.
+
+5.Care este ultima versiune de OpenGL care acceptă modul imediat?
+Ultima versiune care suportă modul imediat este OpenGL 3.0, dar acesta a fost depreciat și eliminat complet în versiunile ulterioare.
+
+6.Când este rulată metoda OnRenderFrame()?
+Această metodă este rulată pentru fiecare cadru randat și este responsabilă cu desenarea scenei. Este chemată după OnUpdateFrame().
+
+7.De ce este nevoie ca metoda OnResize() să fie executată cel puțin o dată?
+Această metodă trebuie executată pentru a seta viewport-ul la dimensiunea corectă a ferestrei, asigurând că scena este redată corect atunci când fereastra este redimensionată.
+
+8.Ce reprezintă parametrii metodei CreatePerspectiveFieldOfView() și care este domeniul de valori pentru aceștia?
+Parametrii acestei metode sunt:
+fovY: unghiul de vizualizare pe verticală, de obicei exprimat în grade (ex: 45°-60°).
+aspectRatio: raportul de aspect al ferestrei (lățime/înălțime).
+nearClip: planul apropiat de tăiere.
+farClip: planul îndepărtat de tăiere.
+Domeniul tipic de valori pentru FOV este între 30° și 120°, iar valorile pentru nearClip și farClip sunt pozitive, nearClip fiind întotdeauna mai mic decât farClip.
