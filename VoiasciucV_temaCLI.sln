@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiasciucV_temaCLI", "Voias
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenGL_conn_ImediateMode", "OpenGL_conn_ImediateMode\OpenGL_conn_ImediateMode.csproj", "{D1159292-5335-4FE5-B9B4-DA855AF9CC7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema4", "Tema4\Tema4.csproj", "{0C875EDA-B780-41F8-BD6F-4011CFFE4926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema5", "Tema5\Tema5.csproj", "{494B2FC7-BD2D-49FF-A73A-A2A2B7BA6B16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D1159292-5335-4FE5-B9B4-DA855AF9CC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1159292-5335-4FE5-B9B4-DA855AF9CC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1159292-5335-4FE5-B9B4-DA855AF9CC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C875EDA-B780-41F8-BD6F-4011CFFE4926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C875EDA-B780-41F8-BD6F-4011CFFE4926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C875EDA-B780-41F8-BD6F-4011CFFE4926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C875EDA-B780-41F8-BD6F-4011CFFE4926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494B2FC7-BD2D-49FF-A73A-A2A2B7BA6B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494B2FC7-BD2D-49FF-A73A-A2A2B7BA6B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494B2FC7-BD2D-49FF-A73A-A2A2B7BA6B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494B2FC7-BD2D-49FF-A73A-A2A2B7BA6B16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
